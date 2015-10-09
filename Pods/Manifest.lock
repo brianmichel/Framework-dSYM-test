@@ -1,0 +1,16 @@
+PODS:
+  - KVOController (1.0.3)
+  - MTMigration (0.0.5)
+  - Reachability (3.2)
+
+DEPENDENCIES:
+  - KVOController
+  - MTMigration
+  - Reachability
+
+SPEC CHECKSUMS:
+  KVOController: 9fd8f0343670994e4b6f9f0b31f5a45663f3e1cf
+  MTMigration: 725315e6469c8fd7d13966887f59e65eb8aecb2e
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+
+COCOAPODS: 0.39.0.rc.1

@@ -6,9 +6,6 @@
 //  Copyright © 2015 Tumblr. All rights reserved.
 //
 
-@import KVOController;
-@import MTMigration;
-
 #import "ViewController.h"
 
 @interface ViewController ()

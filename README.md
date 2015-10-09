@@ -7,7 +7,7 @@ Example project to demonstrate changes for https://github.com/fastlane/gym/pull/
 
 ## With Frameworks
 1. Run `bundle install` (this will install the patched version of Gym)
-2. Run `be gym --scheme Framework-dSYMs`
+2. Run `bundle exec gym --scheme Framework-dSYMs`
 
 After the archive has been created you should see a log message that looks a bit like...
 
@@ -18,7 +18,7 @@ Compressing 4 dSYM(s)
 ## Without Frameworks
 1. Remove the `use_frameworks!` line from the `Podfile`
 2. Run `pod install`
-3. Run `be gym --scheme Frameworks-dSYMs`
+3. Run `bundle exec gym --scheme Frameworks-dSYMs`
 
 After the archive has been created you should see a log message that looks a bit like...
 
